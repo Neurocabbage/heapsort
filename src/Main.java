@@ -91,10 +91,9 @@ class Main
     {
         int[] A = { 6, 4, 7, 1, 9, -2 };
 
-        // perform heapsort on the array
+        // выполнить сортирвку массива А
         heapsort(A);
 
-        // print the sorted array
         System.out.println(Arrays.toString(A));
     }
 }
